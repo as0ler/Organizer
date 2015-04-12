@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "8353BB7713B5744A00FF75B3"
-               BuildableName = "OrganisingCoreData.app"
-               BlueprintName = "OrganisingCoreData"
+               BuildableName = "Organizer.app"
+               BlueprintName = "Organizer"
                ReferencedContainer = "container:OrganisingCoreData.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -29,8 +29,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "8353BB9A13B5744A00FF75B3"
-               BuildableName = "OrganisingCoreDataTests.octest"
-               BlueprintName = "OrganisingCoreDataTests"
+               BuildableName = "Organizer.octest"
+               BlueprintName = "OrganizerTests"
                ReferencedContainer = "container:OrganisingCoreData.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -47,8 +47,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "8353BB9A13B5744A00FF75B3"
-               BuildableName = "OrganisingCoreDataTests.octest"
-               BlueprintName = "OrganisingCoreDataTests"
+               BuildableName = "Organizer.octest"
+               BlueprintName = "OrganizerTests"
                ReferencedContainer = "container:OrganisingCoreData.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -57,9 +57,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8353BB7713B5744A00FF75B3"
-            BuildableName = "OrganisingCoreData.app"
-            BlueprintName = "OrganisingCoreData"
-            ReferencedContainer = "container:OrganisingCoreData.xcodeproj">
+            BuildableName = "Organizer.app"
+            BlueprintName = "Organizer"
+            ReferencedContainer = "container:Organizer.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -77,9 +77,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8353BB7713B5744A00FF75B3"
-            BuildableName = "OrganisingCoreData.app"
-            BlueprintName = "OrganisingCoreData"
-            ReferencedContainer = "container:OrganisingCoreData.xcodeproj">
+            BuildableName = "Organizer.app"
+            BlueprintName = "Organizer"
+            ReferencedContainer = "container:Organizer.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -96,8 +96,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8353BB7713B5744A00FF75B3"
-            BuildableName = "OrganisingCoreData.app"
-            BlueprintName = "OrganisingCoreData"
+            BuildableName = "Organizer.app"
+            BlueprintName = "Organizer"
             ReferencedContainer = "container:OrganisingCoreData.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

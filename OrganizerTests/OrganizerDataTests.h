@@ -1,6 +1,6 @@
 //
-//  OrganisingCoreDataTests.h
-//  OrganisingCoreDataTests
+//  OrganizerTests.h
+//  OrganizerTests
 //
 //  Created by Chris Miles on 25/06/11.
 //  Copyright 2011 Chris Miles. All rights reserved.

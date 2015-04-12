@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D6A864F1ADA94020056315F /* OrganizerTests-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8353BBA413B5744B00FF75B3 /* OrganizerTests-Info.plist */; };
+		0D6A86511ADA950B0056315F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D6A86501ADA950B0056315F /* Default-568h@2x.png */; };
+		0D6A86531ADA97B70056315F /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D6A86521ADA97B70056315F /* logo.png */; };
 		8353BB7D13B5744A00FF75B3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8353BB7C13B5744A00FF75B3 /* UIKit.framework */; };
 		8353BB7F13B5744A00FF75B3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8353BB7E13B5744A00FF75B3 /* Foundation.framework */; };
 		8353BB8113B5744A00FF75B3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8353BB8013B5744A00FF75B3 /* CoreGraphics.framework */; };
@@ -15,7 +18,7 @@
 		8353BB8C13B5744A00FF75B3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8353BB8B13B5744A00FF75B3 /* main.m */; };
 		8353BB8F13B5744A00FF75B3 /* OrganizerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8353BB8E13B5744A00FF75B3 /* OrganizerAppDelegate.m */; };
 		8353BB9213B5744A00FF75B3 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8353BB9013B5744A00FF75B3 /* MainWindow.xib */; };
-		8353BB9513B5744A00FF75B3 /* OrganisingCoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8353BB9313B5744A00FF75B3 /* OrganisingCoreData.xcdatamodeld */; };
+		8353BB9513B5744A00FF75B3 /* Organizer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8353BB9313B5744A00FF75B3 /* Organizer.xcdatamodeld */; };
 		8353BB9C13B5744A00FF75B3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8353BB7C13B5744A00FF75B3 /* UIKit.framework */; };
 		8353BB9D13B5744A00FF75B3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8353BB7E13B5744A00FF75B3 /* Foundation.framework */; };
 		8353BB9E13B5744A00FF75B3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8353BB8013B5744A00FF75B3 /* CoreGraphics.framework */; };
@@ -44,28 +47,30 @@
 			containerPortal = 8353BB6F13B5744A00FF75B3 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 8353BB7713B5744A00FF75B3;
-			remoteInfo = OrganisingCoreData;
+			remoteInfo = Organizer;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		8353BB7813B5744A00FF75B3 /* OrganisingCoreData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OrganisingCoreData.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D6A86501ADA950B0056315F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		0D6A86521ADA97B70056315F /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		8353BB7813B5744A00FF75B3 /* Organizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Organizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8353BB7C13B5744A00FF75B3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		8353BB7E13B5744A00FF75B3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		8353BB8013B5744A00FF75B3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		8353BB8213B5744A00FF75B3 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		8353BB8613B5744A00FF75B3 /* OrganisingCoreData-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OrganisingCoreData-Info.plist"; sourceTree = "<group>"; };
+		8353BB8613B5744A00FF75B3 /* Organizer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Organizer-Info.plist"; sourceTree = "<group>"; };
 		8353BB8813B5744A00FF75B3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		8353BB8A13B5744A00FF75B3 /* OrganisingCoreData-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OrganisingCoreData-Prefix.pch"; sourceTree = "<group>"; };
+		8353BB8A13B5744A00FF75B3 /* Organizer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Organizer-Prefix.pch"; sourceTree = "<group>"; };
 		8353BB8B13B5744A00FF75B3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8353BB8D13B5744A00FF75B3 /* OrganizerAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OrganizerAppDelegate.h; sourceTree = "<group>"; };
 		8353BB8E13B5744A00FF75B3 /* OrganizerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OrganizerAppDelegate.m; sourceTree = "<group>"; };
 		8353BB9113B5744A00FF75B3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		8353BB9413B5744A00FF75B3 /* OrganisingCoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = OrganisingCoreData.xcdatamodel; sourceTree = "<group>"; };
-		8353BB9B13B5744A00FF75B3 /* OrganisingCoreDataTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OrganisingCoreDataTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8353BBA413B5744B00FF75B3 /* OrganisingCoreDataTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OrganisingCoreDataTests-Info.plist"; sourceTree = "<group>"; };
+		8353BB9413B5744A00FF75B3 /* Organizer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Organizer.xcdatamodel; sourceTree = "<group>"; };
+		8353BB9B13B5744A00FF75B3 /* Organizer.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Organizer.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8353BBA413B5744B00FF75B3 /* OrganizerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OrganizerTests-Info.plist"; sourceTree = "<group>"; };
 		8353BBA613B5744B00FF75B3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		8353BBA813B5744B00FF75B3 /* OrganisingCoreDataTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OrganisingCoreDataTests-Prefix.pch"; sourceTree = "<group>"; };
+		8353BBA813B5744B00FF75B3 /* OrganizerTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OrganizerTests-Prefix.pch"; sourceTree = "<group>"; };
 		8353BBA913B5744B00FF75B3 /* OrganizerDataTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OrganizerDataTests.h; sourceTree = "<group>"; };
 		8353BBAB13B5744B00FF75B3 /* OrganizerDataTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OrganizerDataTests.m; sourceTree = "<group>"; };
 		83B5FEF713B5756F00EAC668 /* AddEditDVDViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AddEditDVDViewController.h; path = Classes/AddEditDVDViewController.h; sourceTree = "<group>"; };
@@ -122,8 +127,10 @@
 		8353BB6D13B5744A00FF75B3 = {
 			isa = PBXGroup;
 			children = (
-				8353BB8413B5744A00FF75B3 /* OrganisingCoreData */,
-				8353BBA213B5744A00FF75B3 /* OrganisingCoreDataTests */,
+				0D6A86521ADA97B70056315F /* logo.png */,
+				0D6A86501ADA950B0056315F /* Default-568h@2x.png */,
+				8353BB8413B5744A00FF75B3 /* Organizer */,
+				8353BBA213B5744A00FF75B3 /* OrganizerTests */,
 				8353BB7B13B5744A00FF75B3 /* Frameworks */,
 				8353BB7913B5744A00FF75B3 /* Products */,
 			);
@@ -132,8 +139,8 @@
 		8353BB7913B5744A00FF75B3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8353BB7813B5744A00FF75B3 /* OrganisingCoreData.app */,
-				8353BB9B13B5744A00FF75B3 /* OrganisingCoreDataTests.octest */,
+				8353BB7813B5744A00FF75B3 /* Organizer.app */,
+				8353BB9B13B5744A00FF75B3 /* Organizer.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -149,7 +156,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		8353BB8413B5744A00FF75B3 /* OrganisingCoreData */ = {
+		8353BB8413B5744A00FF75B3 /* Organizer */ = {
 			isa = PBXGroup;
 			children = (
 				83B5FF2113B575AD00EAC668 /* Model */,
@@ -160,36 +167,36 @@
 				8353BB9013B5744A00FF75B3 /* MainWindow.xib */,
 				8353BB8513B5744A00FF75B3 /* Supporting Files */,
 			);
-			path = OrganisingCoreData;
+			path = Organizer;
 			sourceTree = "<group>";
 		};
 		8353BB8513B5744A00FF75B3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				8353BB8613B5744A00FF75B3 /* OrganisingCoreData-Info.plist */,
+				8353BB8613B5744A00FF75B3 /* Organizer-Info.plist */,
 				8353BB8713B5744A00FF75B3 /* InfoPlist.strings */,
-				8353BB8A13B5744A00FF75B3 /* OrganisingCoreData-Prefix.pch */,
+				8353BB8A13B5744A00FF75B3 /* Organizer-Prefix.pch */,
 				8353BB8B13B5744A00FF75B3 /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		8353BBA213B5744A00FF75B3 /* OrganisingCoreDataTests */ = {
+		8353BBA213B5744A00FF75B3 /* OrganizerTests */ = {
 			isa = PBXGroup;
 			children = (
 				8353BBA913B5744B00FF75B3 /* OrganizerDataTests.h */,
 				8353BBAB13B5744B00FF75B3 /* OrganizerDataTests.m */,
 				8353BBA313B5744B00FF75B3 /* Supporting Files */,
 			);
-			path = OrganisingCoreDataTests;
+			path = OrganizerTests;
 			sourceTree = "<group>";
 		};
 		8353BBA313B5744B00FF75B3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				8353BBA413B5744B00FF75B3 /* OrganisingCoreDataTests-Info.plist */,
+				8353BBA413B5744B00FF75B3 /* OrganizerTests-Info.plist */,
 				8353BBA513B5744B00FF75B3 /* InfoPlist.strings */,
-				8353BBA813B5744B00FF75B3 /* OrganisingCoreDataTests-Prefix.pch */,
+				8353BBA813B5744B00FF75B3 /* OrganizerTests-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -227,7 +234,7 @@
 			isa = PBXGroup;
 			children = (
 				839F882A13B57B0F00D21F46 /* Managed Objects */,
-				8353BB9313B5744A00FF75B3 /* OrganisingCoreData.xcdatamodeld */,
+				8353BB9313B5744A00FF75B3 /* Organizer.xcdatamodeld */,
 				83B5FF0213B5756F00EAC668 /* ModelUtil.h */,
 				83B5FF0313B5756F00EAC668 /* ModelUtil.m */,
 				83B5FF0413B5756F00EAC668 /* MODVD+Management.h */,
@@ -250,9 +257,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8353BB7713B5744A00FF75B3 /* OrganisingCoreData */ = {
+		8353BB7713B5744A00FF75B3 /* Organizer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8353BBAF13B5744B00FF75B3 /* Build configuration list for PBXNativeTarget "OrganisingCoreData" */;
+			buildConfigurationList = 8353BBAF13B5744B00FF75B3 /* Build configuration list for PBXNativeTarget "Organizer" */;
 			buildPhases = (
 				8353BB7413B5744A00FF75B3 /* Sources */,
 				8353BB7513B5744A00FF75B3 /* Frameworks */,
@@ -262,14 +269,14 @@
 			);
 			dependencies = (
 			);
-			name = OrganisingCoreData;
-			productName = OrganisingCoreData;
-			productReference = 8353BB7813B5744A00FF75B3 /* OrganisingCoreData.app */;
+			name = Organizer;
+			productName = Organizer;
+			productReference = 8353BB7813B5744A00FF75B3 /* Organizer.app */;
 			productType = "com.apple.product-type.application";
 		};
-		8353BB9A13B5744A00FF75B3 /* OrganisingCoreDataTests */ = {
+		8353BB9A13B5744A00FF75B3 /* OrganizerTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8353BBB213B5744B00FF75B3 /* Build configuration list for PBXNativeTarget "OrganisingCoreDataTests" */;
+			buildConfigurationList = 8353BBB213B5744B00FF75B3 /* Build configuration list for PBXNativeTarget "OrganizerTests" */;
 			buildPhases = (
 				8353BB9613B5744A00FF75B3 /* Sources */,
 				8353BB9713B5744A00FF75B3 /* Frameworks */,
@@ -281,9 +288,9 @@
 			dependencies = (
 				8353BBA113B5744A00FF75B3 /* PBXTargetDependency */,
 			);
-			name = OrganisingCoreDataTests;
-			productName = OrganisingCoreDataTests;
-			productReference = 8353BB9B13B5744A00FF75B3 /* OrganisingCoreDataTests.octest */;
+			name = OrganizerTests;
+			productName = OrganizerTests;
+			productReference = 8353BB9B13B5744A00FF75B3 /* Organizer.octest */;
 			productType = "com.apple.product-type.bundle.ocunit-test";
 		};
 /* End PBXNativeTarget section */
@@ -292,8 +299,9 @@
 		8353BB6F13B5744A00FF75B3 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastUpgradeCheck = 0630;
 			};
-			buildConfigurationList = 8353BB7213B5744A00FF75B3 /* Build configuration list for PBXProject "OrganisingCoreData" */;
+			buildConfigurationList = 8353BB7213B5744A00FF75B3 /* Build configuration list for PBXProject "Organizer" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -305,8 +313,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8353BB7713B5744A00FF75B3 /* OrganisingCoreData */,
-				8353BB9A13B5744A00FF75B3 /* OrganisingCoreDataTests */,
+				8353BB7713B5744A00FF75B3 /* Organizer */,
+				8353BB9A13B5744A00FF75B3 /* OrganizerTests */,
 			);
 		};
 /* End PBXProject section */
@@ -316,10 +324,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D6A864F1ADA94020056315F /* OrganizerTests-Info.plist in Resources */,
 				8353BB8913B5744A00FF75B3 /* InfoPlist.strings in Resources */,
 				8353BB9213B5744A00FF75B3 /* MainWindow.xib in Resources */,
 				83B5FF0D13B5756F00EAC668 /* AddEditDVDViewController.xib in Resources */,
+				0D6A86531ADA97B70056315F /* logo.png in Resources */,
 				83B5FF1113B5756F00EAC668 /* DVDDetailViewController.xib in Resources */,
+				0D6A86511ADA950B0056315F /* Default-568h@2x.png in Resources */,
 				83B5FF2713B576C500EAC668 /* PersonViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -358,7 +369,7 @@
 			files = (
 				8353BB8C13B5744A00FF75B3 /* main.m in Sources */,
 				8353BB8F13B5744A00FF75B3 /* OrganizerAppDelegate.m in Sources */,
-				8353BB9513B5744A00FF75B3 /* OrganisingCoreData.xcdatamodeld in Sources */,
+				8353BB9513B5744A00FF75B3 /* Organizer.xcdatamodeld in Sources */,
 				83B5FF0C13B5756F00EAC668 /* AddEditDVDViewController.m in Sources */,
 				83B5FF1013B5756F00EAC668 /* DVDDetailViewController.m in Sources */,
 				83B5FF1213B5756F00EAC668 /* DVDListTableViewController.m in Sources */,
@@ -385,7 +396,7 @@
 /* Begin PBXTargetDependency section */
 		8353BBA113B5744A00FF75B3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 8353BB7713B5744A00FF75B3 /* OrganisingCoreData */;
+			target = 8353BB7713B5744A00FF75B3 /* Organizer */;
 			targetProxy = 8353BBA013B5744A00FF75B3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -421,7 +432,6 @@
 		8353BBAD13B5744B00FF75B3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -431,6 +441,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -438,7 +449,6 @@
 		8353BBAE13B5744B00FF75B3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_VERSION = com.apple.compilers.llvmgcc42;
@@ -457,8 +467,10 @@
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "OrganisingCoreData/OrganisingCoreData-Prefix.pch";
-				INFOPLIST_FILE = "OrganisingCoreData/OrganisingCoreData-Info.plist";
+				GCC_PREFIX_HEADER = "Organizer/Organizer-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "Organizer/Organizer-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -470,8 +482,10 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "OrganisingCoreData/OrganisingCoreData-Prefix.pch";
-				INFOPLIST_FILE = "OrganisingCoreData/OrganisingCoreData-Info.plist";
+				GCC_PREFIX_HEADER = "Organizer/Organizer-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "Organizer/Organizer-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
@@ -482,19 +496,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/OrganisingCoreData.app/OrganisingCoreData";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Organizer.app/Organizer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "OrganisingCoreDataTests/OrganisingCoreDataTests-Prefix.pch";
-				INFOPLIST_FILE = "OrganisingCoreDataTests/OrganisingCoreDataTests-Info.plist";
+				GCC_PREFIX_HEADER = "OrganizerTests/OrganizerTests-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "OrganizerTests/OrganizerTests-Info.plist";
 				OTHER_LDFLAGS = (
 					"-framework",
 					SenTestingKit,
 				);
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Organizer;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
 			};
@@ -504,19 +519,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/OrganisingCoreData.app/OrganisingCoreData";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Organizer.app/Organizer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "OrganisingCoreDataTests/OrganisingCoreDataTests-Prefix.pch";
-				INFOPLIST_FILE = "OrganisingCoreDataTests/OrganisingCoreDataTests-Info.plist";
+				GCC_PREFIX_HEADER = "OrganizerTests/OrganizerTests-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "OrganizerTests/OrganizerTests-Info.plist";
 				OTHER_LDFLAGS = (
 					"-framework",
 					SenTestingKit,
 				);
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Organizer;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
 			};
@@ -525,7 +541,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8353BB7213B5744A00FF75B3 /* Build configuration list for PBXProject "OrganisingCoreData" */ = {
+		8353BB7213B5744A00FF75B3 /* Build configuration list for PBXProject "Organizer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8353BBAD13B5744B00FF75B3 /* Debug */,
@@ -534,7 +550,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8353BBAF13B5744B00FF75B3 /* Build configuration list for PBXNativeTarget "OrganisingCoreData" */ = {
+		8353BBAF13B5744B00FF75B3 /* Build configuration list for PBXNativeTarget "Organizer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8353BBB013B5744B00FF75B3 /* Debug */,
@@ -543,7 +559,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8353BBB213B5744B00FF75B3 /* Build configuration list for PBXNativeTarget "OrganisingCoreDataTests" */ = {
+		8353BBB213B5744B00FF75B3 /* Build configuration list for PBXNativeTarget "OrganizerTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8353BBB313B5744B00FF75B3 /* Debug */,
@@ -555,13 +571,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		8353BB9313B5744A00FF75B3 /* OrganisingCoreData.xcdatamodeld */ = {
+		8353BB9313B5744A00FF75B3 /* Organizer.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				8353BB9413B5744A00FF75B3 /* OrganisingCoreData.xcdatamodel */,
+				8353BB9413B5744A00FF75B3 /* Organizer.xcdatamodel */,
 			);
-			currentVersion = 8353BB9413B5744A00FF75B3 /* OrganisingCoreData.xcdatamodel */;
-			path = OrganisingCoreData.xcdatamodeld;
+			currentVersion = 8353BB9413B5744A00FF75B3 /* Organizer.xcdatamodel */;
+			path = Organizer.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};

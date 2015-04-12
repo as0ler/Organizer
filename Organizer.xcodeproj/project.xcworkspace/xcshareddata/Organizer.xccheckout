@@ -5,36 +5,36 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>B8183DA0-9372-4812-99D7-2B38F8EB4DF8</string>
+	<string>A2D641DC-6BA1-481B-A826-A605BADCEF19</string>
 	<key>IDESourceControlProjectName</key>
-	<string>OrganisingCoreData</string>
+	<string>Organizer</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>DD7DE5F1D7F07BDC7863969C40A0505A89945758</key>
-		<string>https://github.com/chrismiles/OrganisingCoreData</string>
+		<key>24B7A9E8FF4540F0212F7CE284FBFE18117754C1</key>
+		<string>https://github.com/as0ler/Organizer.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>OrganisingCoreData.xcodeproj</string>
+	<string>Organizer.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>DD7DE5F1D7F07BDC7863969C40A0505A89945758</key>
+		<key>24B7A9E8FF4540F0212F7CE284FBFE18117754C1</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/chrismiles/OrganisingCoreData</string>
+	<string>https://github.com/as0ler/Organizer.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>DD7DE5F1D7F07BDC7863969C40A0505A89945758</string>
+	<string>24B7A9E8FF4540F0212F7CE284FBFE18117754C1</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>DD7DE5F1D7F07BDC7863969C40A0505A89945758</string>
+			<string>24B7A9E8FF4540F0212F7CE284FBFE18117754C1</string>
 			<key>IDESourceControlWCCName</key>
-			<string>OrganisingCoreData</string>
+			<string>Organizer</string>
 		</dict>
 	</array>
 </dict>

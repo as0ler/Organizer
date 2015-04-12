@@ -1,6 +1,6 @@
 //
-//  OrganisingCoreDataAppDelegate.h
-//  Organizer
+//  OrganizerTests.m
+//  OrganizerTests
 //
 //  Created by Chris Miles on 25/06/11.
 //  Copyright 2011 Chris Miles. All rights reserved.
@@ -24,20 +24,28 @@
 //  THE SOFTWARE.
 //
 
-#import <UIKit/UIKit.h>
+#import "OrganizerDataTests.h"
 
-@interface OrganizerAppDelegate : NSObject <UIApplicationDelegate> {
 
+@implementation OrganizerDataTests
+
+- (void)setUp
+{
+    [super setUp];
+    
+    // Set-up code here.
 }
 
-@property (nonatomic, retain) IBOutlet UIWindow *window;
-@property (nonatomic, retain) IBOutlet UINavigationController *mainNavigationController;
+- (void)tearDown
+{
+    // Tear-down code here.
+    
+    [super tearDown];
+}
 
-@property (nonatomic, retain, readonly) NSManagedObjectContext *managedObjectContext;
-@property (nonatomic, retain, readonly) NSManagedObjectModel *managedObjectModel;
-@property (nonatomic, retain, readonly) NSPersistentStoreCoordinator *persistentStoreCoordinator;
-
-- (void)saveContext;
-- (NSURL *)applicationDocumentsDirectory;
+- (void)testExample
+{
+    STFail(@"Unit tests are not implemented yet in OrganizerTests");
+}
 
 @end

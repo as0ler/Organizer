@@ -1,5 +1,5 @@
 //
-//  OrganisingCoreDataAppDelegate.m
+//  OrganizerAppDelegate.m
 //  Organizer
 //
 //  Created by Chris Miles on 25/06/11.
