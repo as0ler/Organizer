@@ -30,23 +30,24 @@ static NSString *entityName = @"Person";
 
 @implementation MOPerson ( Management )
 
-+ (MOPerson *)insertPersonWithUsername:(NSString *)username name:(NSString *)name managedObjectContext:(NSManagedObjectContext *)moc
++ (MOPerson *)insertPersonWithUsername:(NSString *)username password:(NSString *)password name:(NSString *)name managedObjectContext:(NSManagedObjectContext *)moc
 {
     MOPerson *person = (MOPerson *)[NSEntityDescription insertNewObjectForEntityForName:entityName
                                                                  inManagedObjectContext:moc];
     person.username = username;
     person.name = name;
+    person.password = password;
     
     return person;
 }
 
-+ (MOPerson *)insertPersonWithUsername:(NSString *)username name:(NSString *)name
++ (MOPerson *)insertPersonWithUsername:(NSString *)username password:(NSString *)password name:(NSString *)name
 {
     NSManagedObjectContext *moc = defaultManagedObjectContext();
-    return [MOPerson insertPersonWithUsername:username name:name managedObjectContext:moc];
+    return [MOPerson insertPersonWithUsername:username password:password name:name managedObjectContext:moc];
 }
 
-+ (MOPerson *)personWithUsername:(NSString *)username
++ (MOPerson *)personWithUsername:(NSString *)username password:(NSString *)password
 {
     NSPredicate *predicate = [NSPredicate predicateWithFormat:@"username == %@", username];
     

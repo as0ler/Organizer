@@ -31,6 +31,7 @@
 @implementation MOPerson
 @dynamic name;
 @dynamic username;
+@dynamic password;
 @dynamic dvds;
 
 - (void)addDvdsObject:(MODVD *)value {    

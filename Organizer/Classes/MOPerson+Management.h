@@ -30,9 +30,9 @@
 
 @interface MOPerson ( Management )
 
-+ (MOPerson *)insertPersonWithUsername:(NSString *)username name:(NSString *)name;
-+ (MOPerson *)insertPersonWithUsername:(NSString *)username name:(NSString *)name managedObjectContext:(NSManagedObjectContext *)moc;
++ (MOPerson *)insertPersonWithUsername:(NSString *)username password:(NSString *)password name:(NSString *)name;
++ (MOPerson *)insertPersonWithUsername:(NSString *)username password:(NSString *)password name:(NSString *)name managedObjectContext:(NSManagedObjectContext *)moc;
 
-+ (MOPerson *)personWithUsername:(NSString *)username;
++ (MOPerson *)personWithUsername:(NSString *)username password:(NSString *)password;
 
 @end

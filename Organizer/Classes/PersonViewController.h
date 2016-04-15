@@ -34,16 +34,21 @@ typedef enum {
 @interface PersonViewController : UIViewController <UITextFieldDelegate> {
     PersonViewMode currentViewMode;
 	UITextField *loginUsernameTextField;
+    UITextField *loginPasswordTextField;
 	UITextField *registerUsernameTextField;
+    UITextField *registerPasswordTextField;
 	UITextField *registerNameTextField;
 	UIButton *loginButton;
 	UIButton *registerButton;
 }
 
+
 @property (nonatomic, retain) IBOutlet UIView *loginContainerView;
 @property (nonatomic, retain) IBOutlet UIView *registerContainerView;
 @property (nonatomic, retain) IBOutlet UITextField *loginUsernameTextField;
+@property (retain, nonatomic) IBOutlet UITextField *loginPasswordTextField;
 @property (nonatomic, retain) IBOutlet UITextField *registerUsernameTextField;
+@property (retain, nonatomic) IBOutlet UITextField *registerPasswordTextField;
 @property (nonatomic, retain) IBOutlet UITextField *registerNameTextField;
 @property (nonatomic, retain) IBOutlet UIButton *loginButton;
 @property (nonatomic, retain) IBOutlet UIButton *registerButton;

@@ -35,6 +35,7 @@
 @synthesize loginContainerView;
 @synthesize registerContainerView;
 @synthesize loginUsernameTextField;
+@synthesize loginPasswordTextField;
 @synthesize registerUsernameTextField;
 @synthesize registerNameTextField;
 @synthesize loginButton;
@@ -97,6 +98,13 @@
 	return [self.loginUsernameTextField.text stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]];
 }
 
+
+- (NSString *)loginPasswordValue
+{
+    return [self.loginPasswordTextField.text stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]];
+}
+
+
 - (NSString *)registerUsernameValue
 {
 	return [self.registerUsernameTextField.text stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]];
@@ -155,8 +163,9 @@
 	[self.loginUsernameTextField resignFirstResponder];
 	
 	NSString *username = [self loginUsernameValue];
+    NSString *password = [self loginPasswordValue];
 	if ([username length] > 0) {
-		MOPerson *person = [MOPerson personWithUsername:username];
+		MOPerson *person = [MOPerson personWithUsername:username password:password];
 		if (person) {
 			DVDListTableViewController *viewController = [[[DVDListTableViewController alloc] initWithNibName:nil bundle:nil] autorelease];
 			viewController.person = person;
@@ -175,12 +184,17 @@
 
 - (IBAction)registerButtonAction:(id)sender {
 	[self.registerUsernameTextField resignFirstResponder];
-	[self.registerNameTextField resignFirstResponder];
+    [self.loginPasswordTextField resignFirstResponder];
+    [self.registerNameTextField resignFirstResponder];
+
+    
 	
 	NSString *username = [self registerUsernameValue];
 	NSString *name = [self registerNameValue];
+    NSString *password = [self loginPasswordValue];
+
 	if ([username length] > 0 && [name length] > 0) {
-		MOPerson *person = [MOPerson insertPersonWithUsername:username name:name];
+        MOPerson *person = [MOPerson insertPersonWithUsername:username password:password name:name];
 		
 		if (person && commitDefaultMOC()) {
 			DVDListTableViewController *viewController = [[[DVDListTableViewController alloc] initWithNibName:nil bundle:nil] autorelease];
@@ -286,6 +300,12 @@
 	[self setRegisterNameTextField:nil];
 	[self setLoginButton:nil];
 	[self setRegisterButton:nil];
+    [self setLoginPasswordTextField:nil];
+    [registerPasswordTextField release];
+    registerPasswordTextField = nil;
+    [self setRegisterPasswordTextField:nil];
+    [loginPasswordTextField release];
+    loginPasswordTextField = nil;
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
@@ -340,6 +360,8 @@
 	[registerButton release];
 	[viewModeSegmentedControl release];
 	
+    [loginPasswordTextField release];
+    [registerPasswordTextField release];
     [super dealloc];
 }
 
