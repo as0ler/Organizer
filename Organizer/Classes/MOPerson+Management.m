@@ -49,7 +49,7 @@ static NSString *entityName = @"Person";
 
 + (MOPerson *)personWithUsername:(NSString *)username password:(NSString *)password
 {
-    NSPredicate *predicate = [NSPredicate predicateWithFormat:@"username == %@", username];
+    NSPredicate *predicate = [NSPredicate predicateWithFormat:@"username == %@ and password == %@", username, password];
     
     NSArray *sortDescriptors = [NSArray arrayWithObject:[NSSortDescriptor sortDescriptorWithKey:@"username" ascending:YES]];
     

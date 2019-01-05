@@ -38,6 +38,7 @@
 @synthesize loginPasswordTextField;
 @synthesize registerUsernameTextField;
 @synthesize registerNameTextField;
+@synthesize registerPasswordTextField;
 @synthesize loginButton;
 @synthesize registerButton;
 @synthesize viewModeSegmentedControl;
@@ -115,9 +116,16 @@
 	return [self.registerNameTextField.text stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]];
 }
 
+- (NSString *)registerPasswordValue
+{
+    return [self.registerPasswordTextField.text stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]];
+}
+
 - (void)configureLoginButton
 {
 	NSString *username = [self loginUsernameValue];
+    NSString *password = [self loginPasswordValue];
+
 	if ([username length] == 0) {
 		self.loginButton.enabled = NO;
 		self.loginButton.alpha = 0.5;
@@ -132,7 +140,9 @@
 {
 	NSString *username = [self registerUsernameValue];
 	NSString *name = [self registerNameValue];
-	if ([username length] == 0 || [name length] == 0) {
+    NSString *password = [self registerPasswordValue];
+    
+	if ([username length] == 0 || [name length] == 0 || [password length] == 0) {
 		self.registerButton.enabled = NO;
 		self.registerButton.alpha = 0.5;
 	}
@@ -164,6 +174,9 @@
 	
 	NSString *username = [self loginUsernameValue];
     NSString *password = [self loginPasswordValue];
+    
+    NSLog(@"Try to login user %@ with password %@", username, password);
+
 	if ([username length] > 0) {
 		MOPerson *person = [MOPerson personWithUsername:username password:password];
 		if (person) {
@@ -184,14 +197,16 @@
 
 - (IBAction)registerButtonAction:(id)sender {
 	[self.registerUsernameTextField resignFirstResponder];
-    [self.loginPasswordTextField resignFirstResponder];
     [self.registerNameTextField resignFirstResponder];
+    [self.registerPasswordTextField resignFirstResponder];
 
     
 	
 	NSString *username = [self registerUsernameValue];
 	NSString *name = [self registerNameValue];
-    NSString *password = [self loginPasswordValue];
+    NSString *password = [self registerPasswordValue];
+    
+    NSLog(@"Registered user %@ with password %@", username, password);
 
 	if ([username length] > 0 && [name length] > 0) {
         MOPerson *person = [MOPerson insertPersonWithUsername:username password:password name:name];

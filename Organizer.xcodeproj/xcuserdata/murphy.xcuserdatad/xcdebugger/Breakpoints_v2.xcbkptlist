@@ -10,13 +10,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Organizer/Classes/PersonViewController.m"
-            timestampString = "482396842.605497"
+            timestampString = "568380627.285678"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "34"
             endingLineNumber = "34"
-            landmarkName = "loginContainerView"
-            landmarkType = "19">
+            landmarkName = "PersonViewController"
+            landmarkType = "3">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
